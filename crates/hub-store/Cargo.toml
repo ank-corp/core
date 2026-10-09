@@ -1,0 +1,9 @@
+[package]
+name = "hub-store"
+description = "Authoritative store of refs/ank/* per corpus: compare-and-swap, write-ahead log, sequence numbers"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]

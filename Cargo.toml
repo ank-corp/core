@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = ["crates/*", "bench/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+repository = "https://github.com/ank-corp/core"
+
+[workspace.dependencies]
+hub-store = { path = "crates/hub-store" }

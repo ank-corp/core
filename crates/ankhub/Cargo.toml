@@ -1,0 +1,10 @@
+[package]
+name = "ankhub"
+description = "The AnkHub binary: composes the hub crates, one data directory, no external service"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+hub-store.workspace = true
