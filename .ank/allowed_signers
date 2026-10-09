@@ -1,0 +1,11 @@
+# Keys allowed to ratify (section 8).
+#
+# Layout follows git's allowed-signers file: principal, then the key. Same two
+# keys as haksolot/ank: this repository signs commits with gpg, so the file is
+# read by ank check and review, not by git verify-commit.
+#
+# Who may ratify a group corpus is a phase 2 question the hub will own
+# (organisation registry, rotation, revocation); until then, this file is it.
+
+sean.lamet@dekrow.com gpg 739A603FB05F9F2F7D3C8D50624FCFCC1482554A
+sean.lamet@dekrow.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIERwF3UDr0Cf26Xg5fxAtxqzmV67AK72bnw2s8I3QGI6
