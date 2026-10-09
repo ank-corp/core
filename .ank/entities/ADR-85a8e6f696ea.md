@@ -5,13 +5,17 @@ slug: the-hub-s-receive-timestamp-and-sequence-number
 title: The hub's receive timestamp and sequence number are the record of a coordination ref's transition
 created: 2026-10-09T13:15:02Z
 author: claude-code/fable-5.1
-status: proposed
+status: accepted
 scope:
   - crates/**
 constraint: |
   Every accepted update to refs/ank/* is assigned a monotonic per-corpus sequence number and a receive timestamp from the hub's clock, both exposed to readers.
+ratified: e9e8b32ae02e
+verified:
+  - by: seanl@sean-laptop
+    at: 2026-10-09T13:48:23Z
 schema: 4
-version: 1
+version: 2
 ---
 
 Read in ank 0.9.0: lease expiry is judged with the reader's local clock against
