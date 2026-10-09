@@ -5,14 +5,18 @@ slug: claim-objects-are-opaque-to-the-hub-and-core-dep
 title: Claim objects are opaque to the hub, and core depends on no ank crate until a decision names the need
 created: 2026-10-09T13:15:01Z
 author: claude-code/fable-5.1
-status: proposed
+status: accepted
 scope:
   - crates/**
   - Cargo.toml
 constraint: |
   The store and the git front treat the objects refs/ank/* name as opaque bytes, and no crate in core depends on a crate from haksolot/ank.
+ratified: 32686f823067
+verified:
+  - by: seanl@sean-laptop
+    at: 2026-10-09T13:48:23Z
 schema: 4
-version: 1
+version: 2
 ---
 
 Phase 1 needs no knowledge of ank: a compare-and-swap on refs whose objects are
